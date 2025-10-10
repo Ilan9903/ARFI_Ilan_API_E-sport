@@ -205,3 +205,6 @@ C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimA
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
