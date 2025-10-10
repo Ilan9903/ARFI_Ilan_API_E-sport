@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\playerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\updateplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\updateplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\stacktimapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\stacktimapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\database\\tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\database\\tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -64,14 +60,14 @@
               "RelativeDocumentMoniker": "StacktimApi\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "StacktimApi\\Controllers\\PlayersController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwEUAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:32:38.879Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UpdatePlayerDto.cs",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\UpdatePlayerDto.cs",
               "RelativeDocumentMoniker": "StacktimApi\\DTOs\\UpdatePlayerDto.cs",
@@ -84,13 +80,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerDto.cs",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDto.cs",
               "RelativeDocumentMoniker": "StacktimApi\\DTOs\\PlayerDto.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDto.cs",
               "RelativeToolTip": "StacktimApi\\DTOs\\PlayerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:23:46.039Z",
               "EditorCaption": ""
@@ -103,7 +99,7 @@
               "RelativeDocumentMoniker": "StacktimApi\\Controllers\\TeamsController.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\Controllers\\TeamsController.cs",
               "RelativeToolTip": "StacktimApi\\Controllers\\TeamsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:32:51.575Z",
               "EditorCaption": ""
@@ -118,8 +114,7 @@
               "RelativeToolTip": "StacktimApi\\DTOs\\CreatePlayerDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T07:24:00.127Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T07:24:00.127Z"
             },
             {
               "$type": "Document",
@@ -131,8 +126,7 @@
               "RelativeToolTip": "StacktimApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T08:05:51.434Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T08:05:51.434Z"
             },
             {
               "$type": "Document",
@@ -144,8 +138,7 @@
               "RelativeToolTip": "StacktimApi\\Data\\StacktimDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T07:08:27.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T07:08:27.234Z"
             },
             {
               "$type": "Document",
@@ -157,8 +150,7 @@
               "RelativeToolTip": "StacktimApi\\StacktimApi.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-10T07:01:50.005Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T07:01:50.005Z"
             },
             {
               "$type": "Document",
@@ -170,20 +162,18 @@
               "RelativeToolTip": "StacktimApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-09T12:41:47.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T12:41:47.783Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "tables.sql ",
+              "Title": "tables.sql",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\database\\tables.sql",
               "RelativeDocumentMoniker": "StacktimApi\\database\\tables.sql",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\database\\tables.sql",
               "RelativeToolTip": "StacktimApi\\database\\tables.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-10-10T06:32:05.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T06:32:05.463Z"
             }
           ]
         }
