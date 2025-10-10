@@ -34,19 +34,19 @@ public partial class StacktimDbContext : DbContext
 
             entity.HasIndex(e => e.Email, "UQ__Players__A9D10534DF4884C7").IsUnique();
 
-            entity.HasIndex(e => e.Pseudo, "UQ__Players__F1433CEF2E1786C8").IsUnique();
+            entity.HasIndex(e => e.Name, "UQ__Players__F1433CEF2E1786C8").IsUnique();
 
             entity.Property(e => e.IdPlayers).HasColumnName("Id_Players");
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .IsUnicode(false);
-            entity.Property(e => e.Pseudo)
+            entity.Property(e => e.Name)
                 .HasMaxLength(50)
                 .IsUnicode(false);
-            entity.Property(e => e.Rank)
+            entity.Property(e => e.RankPlayer)
                 .HasMaxLength(20)
                 .IsUnicode(false)
-                .HasColumnName("Rank_");
+                .HasColumnName("RankPlayer");
             entity.Property(e => e.RegistrationDate).HasDefaultValueSql("(getdate())");
         });
 

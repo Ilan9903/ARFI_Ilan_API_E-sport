@@ -1,19 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace StacktimApi.DTOs
 {
     public class CreatePlayerDto
     {
-        [Required]
-        [StringLength(50)]
-        public string Pseudo { get; set; }
-
-        [Required]
-        [EmailAddress]
-        [StringLength(100)]
+        public int Id { get; set; }  
+        public string Name { get; set; }
         public string Email { get; set; }
-
-        [Required]
-        public string Rank_ { get; set; }
+        public string? RankPlayer { get; set; }
+        public int TotalScore { get; set; }
     }
 }

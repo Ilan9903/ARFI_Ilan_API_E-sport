@@ -50,17 +50,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlayerDto"
+                "$ref": "#/components/schemas/CreatePlayerDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlayerDto"
+                "$ref": "#/components/schemas/CreatePlayerDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/PlayerDto"
+                "$ref": "#/components/schemas/CreatePlayerDto"
               }
             }
           }
@@ -230,6 +230,32 @@
   },
   "components": {
     "schemas": {
+      "CreatePlayerDto": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "rankPlayer": {
+            "type": "string",
+            "nullable": true
+          },
+          "totalScore": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
       "PlayerDto": {
         "type": "object",
         "properties": {
@@ -245,7 +271,7 @@
             "type": "string",
             "nullable": true
           },
-          "rank": {
+          "rankPlayer": {
             "type": "string",
             "nullable": true
           },

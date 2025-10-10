@@ -24,9 +24,9 @@ namespace StacktimApi.Controllers
                 .Select(p => new PlayerDto
                 {
                     Id = p.IdPlayers,
-                    Name = p.Pseudo,
+                    Name = p.Name,
                     Email = p.Email,
-                    Rank = p.Rank,
+                    RankPlayer = p.RankPlayer,
                     TotalScore = p.TotalScore
                 })
                 .ToListAsync();
@@ -47,9 +47,9 @@ namespace StacktimApi.Controllers
             var playerDto = new PlayerDto
             {
                 Id = player.IdPlayers,
-                Name = player.Pseudo,
+                Name = player.Name,
                 Email = player.Email,
-                Rank = player.Rank,
+                RankPlayer = player.RankPlayer,
                 TotalScore = player.TotalScore
             };
 
@@ -58,19 +58,29 @@ namespace StacktimApi.Controllers
 
 
         [HttpPost]
-        public async Task<ActionResult<PlayerDto>> CreatePlayer(PlayerDto playerDto)
+        public async Task<ActionResult<PlayerDto>> CreatePlayer(CreatePlayerDto createPlayerDto)
         {
+            if (await _context.Players.AnyAsync(p => p.Name == createPlayerDto.Name))
+            {
+                return Conflict("Pseudo already exists.");
+            }
+
+            if (await _context.Players.AnyAsync(p => p.Email == createPlayerDto.Email))
+            {
+                return Conflict("Email already exists.");
+            }
+
             var player = new Models.Player
             {
-                Pseudo = playerDto.Name,
-                Email = playerDto.Email,
-                Rank = playerDto.Rank,
-                TotalScore = playerDto.TotalScore
+                Name = createPlayerDto.Name,
+                Email = createPlayerDto.Email,
+                RankPlayer = createPlayerDto.RankPlayer,
+                TotalScore = createPlayerDto.TotalScore,
             };
             _context.Players.Add(player);
             await _context.SaveChangesAsync();
-            playerDto.Id = player.IdPlayers;
-            return CreatedAtAction(nameof(GetPlayer), new { id = playerDto.Id }, playerDto);
+            createPlayerDto.Id = player.IdPlayers;
+            return CreatedAtAction(nameof(GetPlayer), new { id = createPlayerDto.Id }, createPlayerDto);
         }
 
         [HttpPut("{id}")]
@@ -85,9 +95,9 @@ namespace StacktimApi.Controllers
             {
                 return NotFound();
             }
-            player.Pseudo = playerDto.Name;
+            player.Name = playerDto.Name;
             player.Email = playerDto.Email;
-            player.Rank = playerDto.Rank;
+            player.RankPlayer = playerDto.RankPlayer;
             player.TotalScore = playerDto.TotalScore;
             _context.Entry(player).State = EntityState.Modified;
             try
@@ -130,9 +140,9 @@ namespace StacktimApi.Controllers
                 .Select(p => new PlayerDto
                 {
                     Id = p.IdPlayers,
-                    Name = p.Pseudo,
+                    Name = p.Name,
                     Email = p.Email,
-                    Rank = p.Rank,
+                    RankPlayer = p.RankPlayer,
                     TotalScore = p.TotalScore
                 })
                 .ToListAsync();

@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "playerDto",
-        "Type": "StacktimApi.DTOs.PlayerDto",
+        "Name": "createPlayerDto",
+        "Type": "StacktimApi.DTOs.CreatePlayerDto",
         "IsRequired": true
       }
     ],

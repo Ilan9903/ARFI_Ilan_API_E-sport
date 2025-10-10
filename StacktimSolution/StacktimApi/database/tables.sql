@@ -7,16 +7,16 @@ DROP TABLE IF EXISTS dbo.Players;
 
 CREATE TABLE Players(
    Id_Players INT IDENTITY(1,1) PRIMARY KEY,
-   Pseudo VARCHAR(50) NOT NULL UNIQUE,
+   Name VARCHAR(50) NOT NULL UNIQUE,
    Email VARCHAR(100) NOT NULL UNIQUE,
-   Rank_ VARCHAR(20),
+   RankPlayer VARCHAR(20),
    TotalScore INT NOT NULL DEFAULT 0,
    RegistrationDate DATETIME2 NOT NULL DEFAULT GETDATE(),
-   CONSTRAINT CHK_Player_Rank CHECK (Rank_ IN ('Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond', 'Master')),
-   CONSTRAINT CHK_Player_TotalScore CHECK (TotalScore >= 0),
+   CONSTRAINT CHK_Player_Rank CHECK (RankPlayer IN ('Bronze', 'Silver', 'Gold', 'Platinum', 'Diamond', 'Master')),
+   CONSTRAINT CHK_Player_TotalScore CHECK (TotalScore >= 0)
 );
 
-INSERT INTO Players (Pseudo, Email, Rank_, TotalScore) VALUES
+INSERT INTO Players (Name, Email, RankPlayer, TotalScore) VALUES
 ('Shadow', 'shadow@email.com', 'Gold', 1500),
 ('Vortex', 'vortex@email.com', 'Platinum', 2200),
 ('Phoenix', 'phoenix@email.com', 'Gold', 1800),
