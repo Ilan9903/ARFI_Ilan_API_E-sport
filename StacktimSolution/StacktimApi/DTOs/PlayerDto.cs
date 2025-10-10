@@ -1,4 +1,5 @@
-﻿namespace StacktimApi.DTOs
+﻿
+namespace StacktimApi.DTOs
 {
     public class PlayerDto
     {
@@ -7,5 +8,6 @@
         public string Email { get; set; }
         public string? RankPlayer { get; set; }
         public int TotalScore { get; set; }
+        public DateTime RegistrationDate { get; internal set; }
     }
 }
