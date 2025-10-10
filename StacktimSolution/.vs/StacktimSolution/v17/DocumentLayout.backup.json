@@ -11,16 +11,16 @@
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\updateplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\playerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\controllers\\teamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|solutionrelative:stacktimapi\\dtos\\createplayerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{91A6DC9D-CF66-4671-891F-C7F1D4C2A58B}|StacktimApi\\StacktimApi.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "StacktimApi\\Controllers\\PlayersController.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\Controllers\\PlayersController.cs",
               "RelativeToolTip": "StacktimApi\\Controllers\\PlayersController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwEUAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAiwIwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:32:38.879Z",
               "EditorCaption": ""
@@ -73,27 +73,27 @@
               "RelativeDocumentMoniker": "StacktimApi\\DTOs\\UpdatePlayerDto.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\UpdatePlayerDto.cs",
               "RelativeToolTip": "StacktimApi\\DTOs\\UpdatePlayerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:24:11.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerDto.cs",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDto.cs",
               "RelativeDocumentMoniker": "StacktimApi\\DTOs\\PlayerDto.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\PlayerDto.cs",
               "RelativeToolTip": "StacktimApi\\DTOs\\PlayerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T07:23:46.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TeamsController.cs",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\Controllers\\TeamsController.cs",
               "RelativeDocumentMoniker": "StacktimApi\\Controllers\\TeamsController.cs",
@@ -101,20 +101,20 @@
               "RelativeToolTip": "StacktimApi\\Controllers\\TeamsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T07:32:51.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T07:32:51.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CreatePlayerDto.cs",
               "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\CreatePlayerDto.cs",
               "RelativeDocumentMoniker": "StacktimApi\\DTOs\\CreatePlayerDto.cs",
               "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi\\DTOs\\CreatePlayerDto.cs",
               "RelativeToolTip": "StacktimApi\\DTOs\\CreatePlayerDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T07:24:00.127Z"
+              "WhenOpened": "2025-10-10T07:24:00.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

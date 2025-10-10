@@ -11,6 +11,7 @@ namespace StacktimApi.DTOs
         [StringLength(100)]
         public string? Email { get; set; }
 
-        public string? Rank_ { get; set; } 
+        [AllowedValues("Bronze", "Silver", "Gold", "Platinium", "Diamond", "Master")]
+        public string? Rank_ { get; set; }
     }
 }
