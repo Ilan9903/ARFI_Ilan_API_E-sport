@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StacktimApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+60acf432a464121903a2475281e5eb5e6e561bc0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6f410d87f885922cce6257386acc25330bb76aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("StacktimApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StacktimApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
