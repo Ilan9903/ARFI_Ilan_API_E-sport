@@ -55,19 +55,35 @@ namespace StacktimApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<TeamDto>> CreateTeam(TeamDto teamDto)
+        public async Task<ActionResult<TeamDto>> CreateTeam(CreateTeamDto createTeamDto)
         {
+            if (await _context.Teams.AnyAsync(t => t.Name == createTeamDto.Name))
+            {
+                return BadRequest("Ce nom d'équipe est déjà utilisé.");
+            }
+
+            if (await _context.Teams.AnyAsync(t => t.Tag == createTeamDto.Tag))
+            {
+                return BadRequest("Ce tag est déjà utilisé.");
+            }
+
+            var captain = await _context.Players.FindAsync(createTeamDto.CaptainId);
+            if (captain == null)
+            {
+                return BadRequest("L'ID du capitaine n'est pas valide.");
+            }
+
             var team = new Models.Team
             {
-                Name = teamDto.Name,
-                Tag = teamDto.Tag,
-                CaptainId = teamDto.CaptainId,
+                Name = createTeamDto.Name,
+                Tag = createTeamDto.Tag,
+                CaptainId = createTeamDto.CaptainId,
                 CreationDate = DateTime.Now
             };
             _context.Teams.Add(team);
             await _context.SaveChangesAsync();
-            teamDto.Id = team.IdTeams;
-            return CreatedAtAction(nameof(GetTeam), new { id = team.IdTeams }, teamDto);
+            createTeamDto.Id = team.IdTeams;
+            return CreatedAtAction(nameof(GetTeam), new { id = team.IdTeams }, createTeamDto);
         }
 
         [HttpGet("/api/teams/{id}/roster")]
