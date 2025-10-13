@@ -207,4 +207,3 @@ C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimA
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\bin\Debug\net8.0\Microsoft.Extensions.ObjectPool.dll
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
