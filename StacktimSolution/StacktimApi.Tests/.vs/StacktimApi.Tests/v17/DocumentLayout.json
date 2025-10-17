@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi.Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{44AC3745-7159-B981-058F-1590BC199933}|StacktimApi.Tests.csproj|c:\\users\\iarfi\\documents\\github\\arfi_ilan_api_e-sport\\stacktimsolution\\stacktimapi.tests\\stacktimapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44AC3745-7159-B981-058F-1590BC199933}|StacktimApi.Tests.csproj|solutionrelative:stacktimapi.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StacktimApi.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi.Tests\\StacktimApi.Tests.csproj",
+              "RelativeDocumentMoniker": "StacktimApi.Tests.csproj",
+              "ToolTip": "C:\\Users\\iarfi\\Documents\\GitHub\\ARFI_Ilan_API_E-sport\\StacktimSolution\\StacktimApi.Tests\\StacktimApi.Tests.csproj",
+              "RelativeToolTip": "StacktimApi.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-14T20:17:52.809Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

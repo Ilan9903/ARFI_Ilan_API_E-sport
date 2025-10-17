@@ -60,16 +60,16 @@ public class PlayersControllerTests
         var controller = new PlayersController(context);
         var newPlayerDto = new CreatePlayerDto
         {
-            Name = "NewPlayer",
+            Pseudo = "NewPlayer",
             Email = "new@player.com",
-            RankPlayer = "Bronze"
+            Rank = "Bronze"
         };
 
         var result = await controller.CreatePlayer(newPlayerDto);
 
         var createdResult = result.Result.Should().BeOfType<CreatedAtActionResult>().Subject;
         var player = createdResult.Value.Should().BeOfType<PlayerDto>().Subject;
-        player.Name.Should().Be("NewPlayer");
+        player.Pseudo.Should().Be("NewPlayer");
         player.TotalScore.Should().Be(0);
     }
 
@@ -81,9 +81,9 @@ public class PlayersControllerTests
         var controller = new PlayersController(context);
         var duplicatePlayerDto = new CreatePlayerDto
         {
-            Name = "TestPlayer1",
+            Pseudo = "TestPlayer1",
             Email = "unique@email.com",
-            RankPlayer = "Gold"
+            Rank = "Gold"
         };
 
         var result = await controller.CreatePlayer(duplicatePlayerDto);

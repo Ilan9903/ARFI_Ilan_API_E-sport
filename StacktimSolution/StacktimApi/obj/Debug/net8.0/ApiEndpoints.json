@@ -157,8 +157,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "teamDto",
-        "Type": "StacktimApi.DTOs.TeamDto",
+        "Name": "createTeamDto",
+        "Type": "StacktimApi.DTOs.CreateTeamDto",
         "IsRequired": true
       }
     ],

@@ -1,8 +1,0 @@
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_StacktimApi.Tests
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_StacktimApi.Tests
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.csproj.AssemblyReference.cache
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.AssemblyInfoInputs.cache
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.AssemblyInfo.cs
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.csproj.CoreCompileInputs.cache
-C:\Users\iarfi\Documents\GitHub\ARFI_Ilan_API_E-sport\StacktimSolution\StacktimApi.Tests\obj\Debug\net9.0\StacktimApi.Tests.sourcelink.json
